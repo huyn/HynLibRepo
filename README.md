@@ -8,3 +8,9 @@ http://stackoverflow.com/questions/32220047/gradle-error-after-studio-update
 
 解决方案也在此提问下给出：
 classpath 'com.github.dcendents:android-maven-gradle-plugin:1.3'
+
+#发布
+两个命令：
+gradle install
+gradle bintrayUpload
+依次在Android Studio Terminal执行即可
