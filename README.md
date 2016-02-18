@@ -18,4 +18,5 @@ gradle bintrayUpload
 #关于库的应用说明
 引号内字符串以冒号分割为三部分，第一部分就是group，第二部分是name， 第三部分是上面定义的version。
 
-按照build.gradle里声明的组装即可
+审核通过后，按照build.gradle里声明的组装即可:
+compile 'com.huyn.repo:commonRepo:0.1.0'
