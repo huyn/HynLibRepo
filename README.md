@@ -14,3 +14,8 @@ classpath 'com.github.dcendents:android-maven-gradle-plugin:1.3'
 gradle install
 gradle bintrayUpload
 依次在Android Studio Terminal执行即可
+
+#关于库的应用说明
+引号内字符串以冒号分割为三部分，第一部分就是group，第二部分是name， 第三部分是上面定义的version。
+
+按照build.gradle里声明的组装即可
